@@ -6,6 +6,6 @@ const countElements = document.querySelectorAll(".item");
 
 countElements.forEach(countElements =>
 	console.log(
-		`Category: ${countElements.firstElementChild.textContent} \n Elements: ${countElements.lastElementChild.children.length}`,
+		`Category: ${countElements.firstElementChild.textContent}  Elements: ${countElements.lastElementChild.children.length}`,
 	),
 );
