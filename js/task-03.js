@@ -23,4 +23,5 @@ listGallery.insertAdjacentHTML(
 console.log(listGallery);
 
 listGallery.style.backgroundColor = "teal";
+listGallery.style.listStyle = "none";
 
